@@ -11,6 +11,11 @@
 
 	<header class="header">
     <div class="header__top container">
+        <div class="mobile">
+            <button class="menu"></button>
+            <ul class="menu-list"></ul>
+            <button class="menu-close"></button>
+        </div>
         <div class="header__contacts header__contacts_left">
             <p class="ico ico_address">
                     Ленинградская область, Приозерский район, п. Громово,
@@ -25,9 +30,17 @@
     <div class="header__nav">
         <div class="nav container">
             <div class="nav__block nav__block_left">
-                <a href="#" class="nav__link nav__link_active"><span>Главная</span></a>
-                <a href="#" class="nav__link"><span>О ферме</span></a>
-                <a href="#" class="nav__link"><span>Продукция</span></a>
+                <div class="nav__link nav__link_active"><a  href="#">Главная</a></div>
+                <div class="nav__link">
+                    <a href="#">О ферме</a>
+                    <ul class="drop">
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Партнёрам</a></li>
+                    </ul>
+                </div>
+                <div href="#" class="nav__link"><a href="#">Продукция</a></div>
             </div>
             <div class="nav__logo logo">
                 <a href="/">
@@ -35,9 +48,9 @@
                 </a>
             </div>
             <div class="nav__block nav__block_right">
-                <a href="#" class="nav__link"><span>Новости</span></a>
-                <a href="#" class="nav__link"><span>Сотрудничество</span></a>
-                <a href="#" class="nav__link"><span>Контакты</span></a>
+                <div href="#" class="nav__link"><a href="#">Новости</a></div>
+                <div href="#" class="nav__link"><a href="#">Сотрудничество</a></div>
+                <div href="#" class="nav__link"><a href="#">Контакты</a></div>
             </div>
         </div>
     </div>
